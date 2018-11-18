@@ -31,8 +31,8 @@
     "waveColor": "#fe295c"
   },
   "Three colors": {
-    "backgroundColor": "#eee",
-    "captionColor": "#515151",
+    "backgroundColor": "#fff",
+    "captionColor": "#27AAFF",
     "waveColor": "#fe295c"
   },
   "Light Background image with top right text": {
@@ -59,11 +59,11 @@
   },
   "Bars": {
     "pattern": "bars",
-    "foregroundColor": "#d84a4a"
+    "foregroundColor": "#fe295c"
   },
   "Rounded bars with bottom left text": {
     "pattern": "roundBars",
-    "foregroundColor": "#d84a4a",
+    "foregroundColor": "#fe295c",
     "captionAlign": "left",
     "captionLeft": 60,
     "captionRight": 640,
@@ -86,7 +86,7 @@
     "pattern": "bricks"
   },
   "Equalizer on the bottom": {
-    "backgroundColor": "#222",
+    "backgroundColor": "#fe295c",
     "foregroundColor": "#fff",
     "pattern": "equalizer",
     "captionTop": 40,
@@ -100,16 +100,16 @@
     "captionBottom": 660,
     "captionRight": 1220,
     "captionLeft": 640,
-    "backgroundColor": "#fd5a1e",
+    "backgroundColor": "#fe295c",
     "waveColor": "#fff",
     "captionFont": "bold italic 52px 'Odudo'"
   },
   "Pixelated": {
-    "backgroundColor": "#ecd078",
-    "foregroundColor": "#c02942",
+    "backgroundColor": "#fff",
+    "foregroundColor": "#fe295c",
     "pattern": "pixel"
   },
-  "Square with background image": {
+  "Square with blerp Logo": {
     "width": 640,
     "height": 640,
     "samplesPerFrame": 64,
@@ -118,7 +118,7 @@
     "captionTop": 340,
     "captionLeft": 20,
     "captionRight": 620,
-    "foregroundColor": "#0eb8ba",
+    "foregroundColor": "#fe295c",
     "backgroundImage": "blerpy.png"
   }
 }
