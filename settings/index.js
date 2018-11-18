@@ -26,6 +26,11 @@ module.exports = {
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Light.ttf"), weight: 300 },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Bold.ttf"), weight: "bold" },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Italic.ttf"), style: "italic" },
-    { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-BoldItalic.ttf"), weight: "bold", style: "italic" }
+    { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-BoldItalic.ttf"), weight: "bold", style: "italic" },
+    { family: "Odudo", file: path.join(__dirname, "fonts", "Odudo-Regular.otf") },
+    { family: "Odudo", file: path.join(__dirname, "fonts", "Odudo-Light.otf"), weight: 300 },
+    { family: "Odudo", file: path.join(__dirname, "fonts", "Odudo-Bold.otf"), weight: "bold" },
+    { family: "Odudo", file: path.join(__dirname, "fonts", "Odudo-LightOblique.otf"), style: "italic" },
+    { family: "Odudo", file: path.join(__dirname, "fonts", "Odudo-BoldOblique.otf"), weight: "bold", style: "italic" }
   ]
 };

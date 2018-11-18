@@ -9,32 +9,51 @@
     "waveTop": 150,
     "waveBottom": 420,
     "captionTop": 470,
-    "captionFont": "300 52px 'Source Sans Pro'",
+    "captionFont": "300 52px 'Odudo'",
     "captionLineHeight": 52,
     "captionLineSpacing": 7,
     "captionLeft": 200,
     "captionRight": 1080
   },
   "Basic": {
-    "backgroundColor": "#eee",
-    "foregroundColor": "#de1e3d"
+    "backgroundColor": "#fff",
+    "foregroundColor": "#fe295c",
+    "waveColor": "#fe295c"
+  },
+  "Twitch": {
+    "backgroundColor": "#fff",
+    "foregroundColor": "#21cfa7",
+    "waveColor": "#21cfa7"
   },
   "Neon": {
-    "backgroundColor": "#556270",
-    "foregroundColor": "#c7f464"
+    "backgroundColor": "#000",
+    "foregroundColor": "#FE295C",
+    "waveColor": "#fe295c"
   },
   "Three colors": {
     "backgroundColor": "#eee",
     "captionColor": "#515151",
-    "waveColor": "#00b4ff"
+    "waveColor": "#fe295c"
   },
-  "Background image with top right text": {
+  "Light Background image with top right text": {
     "captionAlign": "right",
     "captionTop": 60,
     "captionRight": 1220,
     "captionLeft": 640,
-    "backgroundImage": "subway.jpg",
-    "foregroundColor": "#fc0",
+    "backgroundImage": "blerp-light.png",
+    "foregroundColor": "#fe295c",
+    "waveColor": "#fe295c",
+    "waveBottom": 660,
+    "waveTop": 320
+  },
+  "Dark Background image with top right text": {
+    "captionAlign": "right",
+    "captionTop": 60,
+    "captionRight": 1220,
+    "captionLeft": 640,
+    "backgroundImage": "blerp-dark.png",
+    "foregroundColor": "#fe295c",
+    "waveColor": "#fe295c",
     "waveBottom": 660,
     "waveTop": 320
   },
@@ -52,17 +71,17 @@
     "captionTop": null
   },
   "Line": {
-    "backgroundColor": "#edc951",
-    "foregroundColor": "#00a0b0",
+    "backgroundColor": "#fff",
+    "foregroundColor": "#fe295c",
     "pattern": "line"
   },
   "Curve": {
-    "backgroundColor": "#00a0b0",
-    "foregroundColor": "#edc951",
+    "backgroundColor": "#fff",
+    "foregroundColor": "#fe295c",
     "pattern": "curve"
   },
   "Bricks": {
-    "backgroundColor": "#8771aa",
+    "backgroundColor": "#fe295c",
     "foregroundColor": "#fff",
     "pattern": "bricks"
   },
@@ -83,7 +102,7 @@
     "captionLeft": 640,
     "backgroundColor": "#fd5a1e",
     "waveColor": "#fff",
-    "captionFont": "bold italic 52px 'Source Sans Pro'"
+    "captionFont": "bold italic 52px 'Odudo'"
   },
   "Pixelated": {
     "backgroundColor": "#ecd078",
@@ -100,6 +119,6 @@
     "captionLeft": 20,
     "captionRight": 620,
     "foregroundColor": "#0eb8ba",
-    "backgroundImage": "nyc.png"
+    "backgroundImage": "blerpy.png"
   }
 }
