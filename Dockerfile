@@ -9,14 +9,22 @@ redis-server --yes
 
 RUN ln -s `which nodejs` /usr/bin/node
 
-# Non-privileged user
-RUN useradd -m audiogram
-USER audiogram
-WORKDIR /home/audiogram
+# setup the app dir
+RUN mkdir /app
+WORKDIR /app
 
-# Clone repo
-RUN git clone https://github.com/blerp/audiogram.git
-WORKDIR /home/audiogram/audiogram
+# add node_modules/.bin to the PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+COPY package.json ./
 
 # Install dependencies
 RUN npm install
+
+# Non-privileged user
+# RUN useradd -m audiogram
+# USER audiogram
+
+# copy the source
+COPY . /app
+WORKDIR /app
