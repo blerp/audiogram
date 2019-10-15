@@ -28,3 +28,7 @@ RUN npm install
 # copy the source
 COPY . /app
 WORKDIR /app
+
+EXPOSE 3042
+
+CMD ["npm", "start", "--", "3042"]
